@@ -1,11 +1,11 @@
 test:
-	stack test --allow-different-user
+	stack test
 
 bin:
-	stack build --allow-different-user
+	stack build
 
 clean:
-	stack clean --allow-different-user
+	stack clean
 
 turnin: 
 	git commit -a -m "turnin"
