@@ -15,7 +15,7 @@ The assignment is in the files:
 You can edit these files and then run them,
 
 * either through the [web interface](http://goto.ucsd.edu/elsa/index.html), OR
-* by running `elsa path/to/file.lc` on a terminal in Codespaces, OR
+* by running `elsa path/to/file.lc` on a terminal in Codespaces. You can access Codespaces by clicking "Code" in the top right of the repo, clicking Codespaces, and creating a Codespace OR
 * by locally installing `elsa` following [these instructions](https://github.com/ucsd-progsys/elsa#install)
 
 If you run it online, be sure to **copy back the result**
