@@ -64,13 +64,13 @@ unit1 sc = testGroup "Unit 1"
       (check "03_minus.lc")
       "skip1_true_zero"
       True
-      10
+      5
       "skip1_true_zero"
   , mkTest
       (check "03_minus.lc")
       "skip1_true_one"
       True
-      10
+      5
       "skip1_true_one"
   , mkTest
       (check "03_minus.lc")
