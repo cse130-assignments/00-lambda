@@ -111,10 +111,10 @@ unit1 sc = testGroup "Unit 1"
       "sub_two_two"
   , mkTest
       (check "03_minus.lc")
-      "sub_two_three"
+      "sub_one_two"
       True
       5
-      "sub_two_three"
+      "sub_one_two"
   , mkTest
       (check "03_minus.lc")
       "isz_zero"
