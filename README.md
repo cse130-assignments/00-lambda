@@ -14,28 +14,16 @@ The assignment is in the files:
 
 You can edit these files and then run them,
 
-* either through the [web interface](http://goto.ucsd.edu/elsa/index.html), OR
-* by running `$ elsa path/to/file.lc` on `ieng6.ucsd.edu`, OR
+* either through the [web interface](http://elsa.goto.ucsd.edu/index.html), OR
+* by running `$ elsa path/to/file.lc` on `codespaces`, OR
 * by locally installing `elsa` following [these instructions](https://github.com/ucsd-progsys/elsa#install)
 
 If you run it online, be sure to **copy back the result**
-into the corresponding local file before submitting.
-
-## Running Elsa 
-
-In the lab `ieng6` You can run `elsa` on a single file `path/to/file.lc` with:
-
-```
-elsa path/to/file.lc 
-```
-
-If the command `elsa` is not recognized, make sure you have "prepped" your `ieng6` account by running `prep cs130sp21`.
+into the corresponding source file locally or on `codespaces`.
+Whether you are working locally or on `codespaces`, 
+do not forget to commit and push all your changes to your GitHub repo.
 
 ## Assignment Testing and Evaluation
-
-<!--
-Your functions/programs **must** compile and run on `ieng6.ucsd.edu`.
--->
 
 All the points will be awarded automatically, by
 **evaluating your functions against a given test suite**.
@@ -75,36 +63,7 @@ but you will not be graded on this.
 ## Submission Instructions
 
 Submit your code via the HW-0 assignment on Gradescope.
-You must submit a single zip file containing a single directory with your repository inside.
-A simple way to create this zip file is:
-
-- Run `git push` to push your local changes to your private fork of the assignment repository
-- Navigate to your private fork on github and download source code as a zip
-
-Please *do not* include the `.stack-work` folder into the submission. 
-
-<!--
-To submit your code, run:
-
-```bash
-$ make turnin
-```
-
-or alternatively, just `git push` you code to your github classroom repository.
-
--->
-
-<!--
-`turnin` will provide you with a confirmation of the
-submission process; make sure that the size of the file
-indicated by `turnin` matches the size of your file.
-See the ACS Web page on [turnin](https://acms.ucsd.edu/info/turnin.html)
-for more information on the operation of the program.
--->
-
-**REMARK**: For problems 1 and 2, when using `=d>`, you don't need to unfold
-every definition. It is often easier to keep some definitions folded until
-their code is needed.
+Detailed instructions on how to submit your code directly from the Git repo can be found on [Piazza](https://piazza.com/class/lfyrhbkf5nw3os/post/9).
 
 ## Problem 1: `01_bool.lc`
 
@@ -115,6 +74,9 @@ will get 0 points for the assignment.
 **NOTE: YOU MAY** replace `=d>` with `=b>` in the
 last line.
 
+**REMARK**: For problems 1 and 2, when using `=d>`, you don't need to unfold
+every definition. It is often easier to keep some definitions folded until
+their code is needed.
 
 ### Part (a) (5 points)
 
