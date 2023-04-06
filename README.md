@@ -15,10 +15,10 @@ The assignment is in the files:
 You can edit these files and then run them,
 
 * either through the [web interface](http://elsa.goto.ucsd.edu/index.html), OR
-* by running `$ elsa path/to/file.lc` on `codespaces`, OR
+* by running `$ elsa path/to/file.lc` (e.g. `elsa tests/01_bool.lc`) on `codespaces`, OR
 * by locally installing `elsa` following [these instructions](https://github.com/ucsd-progsys/elsa#install)
 
-If you run it online, be sure to **copy back the result**
+If you work on your code in the web interface, be sure to **copy back the result**
 into the corresponding source file locally or on `codespaces`.
 Whether you are working locally or on `codespaces`, 
 do not forget to commit and push all your changes to your GitHub repo.
@@ -63,6 +63,9 @@ but you will not be graded on this.
 ## Submission Instructions
 
 Submit your code via the HW-0 assignment on Gradescope.
+Connect your Github account to Gradescope and select your repo.
+*If you're in a group, don't forget to add your partner to the submission!*
+
 Detailed instructions on how to submit your code directly from the Git repo can be found on [Piazza](https://piazza.com/class/lfyrhbkf5nw3os/post/9).
 
 ## Problem 1: `01_bool.lc`
