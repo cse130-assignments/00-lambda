@@ -151,6 +151,10 @@ eval skip1_true_one :
   =~> (\b -> b TRUE TWO)          -- PAIR TRUE TWO
 ```
 
+`SKIP1` is a helper function used in part (b) below.
+You are supposed to infer the intended meaning of `SKIP1`
+from the examples above.
+
 ### Part (b) (30 points)
 
 Replace the definition of `DEC` (decrement-by-one)
@@ -171,6 +175,8 @@ eval decr_two :
   DEC TWO
   =~> ONE
 ```
+
+You **must** use `SKIP1` in your definition of `DEC`.
 
 ### Part (c) (10 points)
 
