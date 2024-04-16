@@ -66,7 +66,7 @@ Submit your code via the HW-0 assignment on Gradescope.
 Connect your Github account to Gradescope and select your repo.
 *If you're in a group, don't forget to add your partner to the submission!*
 
-Detailed instructions on how to submit your code directly from the Git repo can be found on [Piazza](https://piazza.com/class/lfyrhbkf5nw3os/post/9).
+Detailed instructions on how to submit your code directly from the Git repo can be found on Piazza.
 
 ## Problem 1: `01_bool.lc`
 
