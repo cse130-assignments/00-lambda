@@ -12,10 +12,10 @@ let INC   = \n f x -> f (n f x)
 let ADD   = \n m -> n INC m
 let MUL   = \n m -> n (ADD m) ZERO
 
-
 -------------------------------------------------------------------------------
 -- YOU SHOULD ONLY MODIFY THE TEXT BELOW, JUST THE PARTS MARKED AS COMMENTS
 -------------------------------------------------------------------------------
+
 eval inc_one :
   INC ONE
   -- (a) fill in your reductions here

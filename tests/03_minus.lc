@@ -1,4 +1,3 @@
-
 --------------------------------------------------------------------------------
 -- Booleans
 --------------------------------------------------------------------------------
@@ -53,7 +52,7 @@ let EQL   = TODO       -- (e)
 
 eval skip1_false :
   SKIP1 INC (PAIR FALSE ZERO)
-  =~> (\b -> b TRUE ZERO)         --  PAIR TRUE ZERO
+  =~> (\b -> b TRUE ZERO)         -- PAIR TRUE ZERO
 
 eval skip1_true_zero :
   SKIP1 INC (PAIR TRUE ZERO)
