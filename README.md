@@ -131,6 +131,9 @@ definitions for `SKIP1`, `DEC`, `SUB`, `ISZ` and `EQL`.
 If you modify **any other** other part of the file
 you will get 0 points for the assignment.
 
+It goes without saying that your definitions should
+work for all valid inputs, not just the ones provided.
+
 ### Part (a) (30 points)
 
 Replace the definition of `SKIP1` with a suitable
@@ -140,7 +143,7 @@ term) so that the following reductions are valid:
 ```haskell
 eval skip1_false :
   SKIP1 INC (PAIR FALSE ZERO)
-  =~> (\b -> b TRUE ZERO)         --  PAIR TRUE ZERO
+  =~> (\b -> b TRUE ZERO)         -- PAIR TRUE ZERO
 
 eval skip1_true_zero :
   SKIP1 INC (PAIR TRUE ZERO)
