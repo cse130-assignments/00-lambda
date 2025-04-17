@@ -109,17 +109,17 @@ will get 0 points for the assignment.
 last line.
 
 
-### Part (a) (5 points)
+### Part (a) (10 points)
 
 Complete the sequence of `=a>`, `=b>` and `=d>`
 steps needed to reduce `INC ONE` to `TWO`.
 
-### Part (b) (5 points)
+### Part (b) (10 points)
 
 Complete the sequence of `=a>`, `=b>` and `=d>`
 steps needed to reduce `ADD ZERO ZERO` to `ZERO`.
 
-### Part (c) (5 points)
+### Part (c) (10 points)
 
 Complete the sequence of `=a>`, `=b>` and `=d>`
 steps needed to reduce `ADD TWO TWO` to `FOUR`.
@@ -134,7 +134,7 @@ you will get 0 points for the assignment.
 It goes without saying that your definitions should
 work for all valid inputs, not just the ones provided.
 
-### Part (a) (30 points)
+### Part (a) (20 points)
 
 Replace the definition of `SKIP1` with a suitable
 lambda-term (i.e. replace `TODO` with a suitable
@@ -158,7 +158,7 @@ eval skip1_true_one :
 You are supposed to infer the intended meaning of `SKIP1`
 from the examples above.
 
-### Part (b) (30 points)
+### Part (b) (15 points)
 
 Replace the definition of `DEC` (decrement-by-one)
 with a suitable lambda-term (i.e. replace `TODO`
@@ -181,7 +181,7 @@ eval decr_two :
 
 You **must** use `SKIP1` in your definition of `DEC`.
 
-### Part (c) (10 points)
+### Part (c) (20 points)
 
 Replace the definition of `SUB` (subtract) with a
 suitable lambda-term (i.e. replace `TODO`
@@ -206,7 +206,7 @@ eval sub_two_three :
   =~> ZERO
 ```
 
-### Part (d) (20 points)
+### Part (d) (10 points)
 
 Replace the definition of `ISZ` (is-equal-to-zero)
 with a suitable lambda-term (i.e. replace `TODO`
