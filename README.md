@@ -60,6 +60,8 @@ The other lines will give you a readout for each test.
 You are encouraged to try to understand the testing code,
 but you will not be graded on this.
 
+NOTE: the first time you run `make` or `stack test` it will take a few minutes for everything to get set up -- this is normal! Subsequent executions of these commands should be very fast.
+
 ## Submission Instructions
 
 Submit your code via the HW-0 assignment on Gradescope.
