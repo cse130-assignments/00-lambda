@@ -5,5 +5,4 @@ packages:
 - '.' 
 extra-deps:
 - dequeue-0.1.12
-- git: https://github.com/ucsd-progsys/elsa
-  commit: f872270763a8b343075d92953cdddcefe323fca7
+- elsa-0.3.0.0
