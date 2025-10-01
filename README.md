@@ -1,4 +1,4 @@
-# Assignment 0: Lambda Calculus (points: 130 public / 150 private)
+# Assignment 0: Lambda Calculus (points: 130 public + 20 private = 150 total)
 
 ## Overview : Lambda Calculus
 
